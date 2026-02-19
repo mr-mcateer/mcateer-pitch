@@ -49,13 +49,13 @@
         datasets: [{
           label: 'Student Enrollment',
           data: [6600, 6866, 6800, 6700, 6500, 6300, 6200, 6120, 5859, 5661],
-          borderColor: '#D97706',
-          backgroundColor: 'rgba(217, 119, 6, 0.08)',
+          borderColor: '#C41E3A',
+          backgroundColor: 'rgba(196, 30, 58, 0.08)',
           fill: true,
           tension: 0.3,
           pointRadius: 4,
-          pointBackgroundColor: '#D97706',
-          pointBorderColor: '#D97706',
+          pointBackgroundColor: '#C41E3A',
+          pointBorderColor: '#C41E3A',
           pointHoverRadius: 6,
           borderWidth: 2
         }]
@@ -69,7 +69,7 @@
         plugins: {
           legend: { display: false },
           tooltip: {
-            backgroundColor: '#0D1117',
+            backgroundColor: '#07121F',
             titleFont: { family: "'JetBrains Mono', monospace", size: 12 },
             bodyFont: { family: "'JetBrains Mono', monospace", size: 12 },
             padding: 12,
@@ -112,7 +112,7 @@
           var ctx2 = chart.ctx;
           ctx2.save();
           ctx2.font = "11px 'JetBrains Mono', monospace";
-          ctx2.fillStyle = '#D97706';
+          ctx2.fillStyle = '#C41E3A';
           ctx2.textAlign = 'right';
           ctx2.fillText('↓ ~1,200 students lost', lastPoint.x - 8, lastPoint.y - 12);
           ctx2.restore();
@@ -135,7 +135,7 @@
         datasets: [{
           label: 'Budget Reduction ($M)',
           data: [8.2, 3.0, 2.98, 4.0],
-          backgroundColor: ['#94A3B8', '#B0956B', '#D97706', '#F59E0B'],
+          backgroundColor: ['#025BAD', '#3A5068', '#C41E3A', '#FCB644'],
           borderRadius: 4,
           barThickness: 32
         }]
@@ -150,7 +150,7 @@
         plugins: {
           legend: { display: false },
           tooltip: {
-            backgroundColor: '#0D1117',
+            backgroundColor: '#07121F',
             titleFont: { family: "'JetBrains Mono', monospace", size: 12 },
             bodyFont: { family: "'JetBrains Mono', monospace", size: 12 },
             padding: 12,

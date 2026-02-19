@@ -3,16 +3,17 @@
    Editorial Minimalism with Industrial Warmth
    ============================================ */
 
-/* --- CSS Variables --- */
+/* --- CSS Variables — CSD 509J / Crescent Valley Palette --- */
 :root {
-  --bg-dark: #0D1117;
-  --bg-light: #F8F7F4;
+  --bg-dark: #07121F;           /* CSD navy */
+  --bg-light: #F4F8FC;          /* CSD light blue-white */
   --text-primary: #1A1A1A;
   --text-light: #E8E6E1;
-  --text-muted: #6B7280;
-  --accent-forge: #D97706;
-  --accent-steel: #94A3B8;
-  --accent-highlight: #F59E0B;
+  --text-muted: #6C757D;
+  --accent-forge: #025BAD;      /* CSD primary blue — headings, labels, data */
+  --accent-steel: #3A5068;      /* Muted navy-gray — borders, rules, subtle UI */
+  --accent-gold: #FCB644;       /* CVHS gold — key stats, CTAs, emphasis */
+  --accent-highlight: #C41E3A;  /* CVHS cardinal — sparingly, critical data */
 
   --font-display: 'Playfair Display', Georgia, serif;
   --font-body: 'DM Sans', system-ui, sans-serif;
@@ -296,11 +297,11 @@ strong {
 }
 
 .text-accent {
-  color: var(--accent-forge);
+  color: var(--accent-highlight);
 }
 
 .text-accent-dark {
-  color: var(--accent-forge);
+  color: var(--accent-highlight);
 }
 
 /* ============================================
@@ -321,7 +322,7 @@ strong {
   display: block;
   font-family: var(--font-mono);
   font-size: clamp(32px, 5vw, 48px);
-  color: var(--accent-forge);
+  color: var(--accent-gold);
   font-weight: 500;
   line-height: 1.2;
   margin-bottom: 8px;
@@ -490,7 +491,7 @@ strong {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: var(--accent-steel);
+  color: var(--accent-gold);
   margin-bottom: 40px;
 }
 
@@ -545,7 +546,7 @@ strong {
 
 .cost-compare__extras p {
   font-size: 15px;
-  color: var(--accent-steel);
+  color: var(--accent-gold);
   margin-bottom: 8px;
   font-style: italic;
 }
@@ -576,7 +577,7 @@ strong {
 .credentials__rule {
   border: none;
   border-top: 1px solid var(--accent-steel);
-  opacity: 0.2;
+  opacity: 0.3;
   margin: 24px 0;
 }
 
@@ -614,7 +615,7 @@ strong {
 
 .close__cta {
   font-size: 24px !important;
-  color: var(--accent-forge) !important;
+  color: var(--accent-gold) !important;
   font-weight: 700;
   margin-top: 16px;
 }
